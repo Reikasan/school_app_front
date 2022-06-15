@@ -1,5 +1,9 @@
 # school_app_front
-frontend development of school app
+Frontend development of school app.<br>
+To achieve deployment as soon as possible, this app is designed only for mobile devices.
 
-sorry for mess in this folder.
+![school_app_screenshot](https://user-images.githubusercontent.com/68085523/173771275-ade88d45-a150-4d45-a56f-08838a9e15eb.jpg)
+
+
+sorry for mess in this folder.<br>
 Im reusing the code of reservation-manager and not finish to organise yet :(
