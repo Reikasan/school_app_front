@@ -1,7 +1,7 @@
 <section id="search">
     <form action="" class="col-10 offset-1">
         <div class="input-group my-3">
-            <input type="text" class="form-control" placeholder="search" aria-label="Search" aria-describedby="searchBtn">
+            <input type="text" class="form-control" placeholder="Enter a name" aria-label="Search" aria-describedby="searchBtn">
             <input class="btn btn-outline-secondary" type="submit" id="searchBtn" value="Search">
         </div>
     </form>
@@ -12,7 +12,7 @@
                     Filters
                 </button>    
             </div>
-            <div id="collapseFilter" class="accordion-collapse collapse pb-3 border-bottom" aria-labelledby="accordingHeading" data-bs-parent="#students">
+            <div id="collapseFilter" class="accordion-collapse collapse pb-3 border-bottom" aria-labelledby="accordingHeading" data-bs-parent="#filters">
                 <form action="">
                     <div class="row col-10 offset-1">
                         <div class="form-check col-6">
