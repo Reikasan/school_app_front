@@ -7,51 +7,61 @@
 
 <div class="container">
     <?php include "includes/search_section.php"; ?>
-    <section class="mb-3 row">
-        <div class="img-container col-3 p-3">
-            <img class="img-fluid" src="img/brooke-cagle-rPgFF8vJ5vU-unsplash.jpg" alt="profile photo">
-        </div>
-        <div class="col-9">
-            <h1 class="fw-bold  text-start">Reika Akuzawa</h1>
-            <p>next lesson is  Sat.6.18</p>
-        </div>
-    </section>
-    <section class="mb-3 row">
-        <div class="img-container col-3 p-3">
-            <img class="img-fluid" src="img/brooke-cagle-rPgFF8vJ5vU-unsplash.jpg" alt="profile photo">
-        </div>
-        <div class="col-9">
-            <h1 class="fw-bold  text-start">Reika Akuzawa</h1>
-            <p>next lesson is  Sat.6.18</p>
-        </div>
-    </section>
-    <section class="mb-3 row">
-        <div class="img-container col-3 p-3">
-            <img class="img-fluid" src="img/brooke-cagle-rPgFF8vJ5vU-unsplash.jpg" alt="profile photo">
-        </div>
-        <div class="col-9">
-            <h1 class="fw-bold  text-start">Reika Akuzawa</h1>
-            <p>next lesson is  Sat.6.18</p>
-        </div>
-    </section>
-    <section class="mb-3 row">
-        <div class="img-container col-3 p-3">
-            <img class="img-fluid" src="img/brooke-cagle-rPgFF8vJ5vU-unsplash.jpg" alt="profile photo">
-        </div>
-        <div class="col-9">
-            <h1 class="fw-bold  text-start">Reika Akuzawa</h1>
-            <p>next lesson is  Sat.6.18</p>
-        </div>
-    </section>
-    <section class="mb-3 row">
-        <div class="img-container col-3 p-3">
-            <img class="img-fluid" src="img/brooke-cagle-rPgFF8vJ5vU-unsplash.jpg" alt="profile photo">
-        </div>
-        <div class="col-9">
-            <h1 class="fw-bold  text-start">Reika Akuzawa</h1>
-            <p>next lesson is  Sat.6.18</p>
-        </div>
-    </section>
+    <div class="mb-3 student-link">
+        <a href="student.php" class="row">
+            <div class="img-container col-3 p-3">
+                <img class="img-fluid" src="img/brooke-cagle-rPgFF8vJ5vU-unsplash.jpg" alt="profile photo">
+            </div>
+            <div class="col-9">
+                <h1 class="fw-bold  text-start">Reika Akuzawa</h1>
+                <p>next lesson is  Sat.6.18</p>
+            </div>
+        </a>
+    </div>
+    <div class="mb-3 student-link">
+        <a href="student.php" class="row">
+            <div class="img-container col-3 p-3">
+                <img class="img-fluid" src="img/brooke-cagle-rPgFF8vJ5vU-unsplash.jpg" alt="profile photo">
+            </div>
+            <div class="col-9">
+                <h1 class="fw-bold  text-start">Reika Akuzawa</h1>
+                <p>next lesson is  Sat.6.18</p>
+            </div>
+        </a>
+    </div>
+    <div class="mb-3 student-link">
+        <a href="student.php" class="row">
+            <div class="img-container col-3 p-3">
+                <img class="img-fluid" src="img/brooke-cagle-rPgFF8vJ5vU-unsplash.jpg" alt="profile photo">
+            </div>
+            <div class="col-9">
+                <h1 class="fw-bold  text-start">Reika Akuzawa</h1>
+                <p>next lesson is  Sat.6.18</p>
+            </div>
+        </a>
+    </div>
+    <div class="mb-3 student-link">
+        <a href="student.php" class="row">
+            <div class="img-container col-3 p-3">
+                <img class="img-fluid" src="img/blank-profile-picture-973460_640.png" alt="profile photo">
+            </div>
+            <div class="col-9">
+                <h1 class="fw-bold  text-start">Reika Akuzawa</h1>
+                <p>next lesson is  Sat.6.18</p>
+            </div>
+        </a>
+    </div>
+    <div class="mb-3 student-link">
+        <a href="student.php" class="row">
+            <div class="img-container col-3 p-3">
+                <img class="img-fluid" src="img/brooke-cagle-rPgFF8vJ5vU-unsplash.jpg" alt="profile photo">
+            </div>
+            <div class="col-9">
+                <h1 class="fw-bold  text-start">Reika Akuzawa</h1>
+                <p>next lesson is  Sat.6.18</p>
+            </div>
+        </a>
+    </div>
     <nav aria-label="Page navigation example">
         <ul class="pagination justify-content-center">
             <li class="page-item">

@@ -1,4 +1,4 @@
-body {
+/* body {
     height: 100%;
     width: 100%;
     position: fixed;
@@ -37,7 +37,7 @@ body {
     max-width: 20rem;
 }
 
-/* table for index page */
+/* table for index page 
 .index-box {
     width: 80%;
     max-height: 80%;
@@ -109,7 +109,7 @@ body {
     font-size: 1.3rem !important;
 }
 
-/* ALL RESERVATION */ 
+/* ALL RESERVATION 
 tr.read {
     background-color: #f5f5f5;
 }
@@ -141,7 +141,7 @@ h1.no-data {
     margin-bottom: 2rem;
 }
 
-/* DETAILS.PHP */ 
+/* DETAILS.PHP 
 table.mail-contents {
     margin: 2rem 1rem;
 }
@@ -252,7 +252,7 @@ i.fas.fa-flag.active {
     color: #dce822;
 }
 
-/* DETAILS */
+/* DETAILS 
 .details p {
     padding: .5rem 2rem .5rem 0;
     color: #5d5d5d;
@@ -340,7 +340,7 @@ input.hide {
     display: none;
 }
 
-/* ADD RESERVATION */
+/* ADD RESERVATION 
 .message.hide {
     display: none;
 }
@@ -449,7 +449,7 @@ form#add .btn {
     text-align: center;
 }
 
-/* SEARCH */
+/* SEARCH 
 .search ~ .back {
     margin-top: 0;
 }
@@ -462,7 +462,7 @@ form#add .btn {
     text-decoration: underline;
 }
 
-/* SEARCH DETAILS */
+/* SEARCH DETAILS 
 #backToSearch input:read-only {
     display: none;
 }
@@ -486,7 +486,7 @@ form#add .btn {
     text-decoration: underline;
 }
 
-/* EDIT_RESERVATION.PHP */
+/* EDIT_RESERVATION.PHP 
 .success > a.check {
     color:#fff;
     display: inline-block;
@@ -494,13 +494,13 @@ form#add .btn {
     text-decoration: underline;
 }
 
-/* COMING_SOON.PHP */
+/* COMING_SOON.PHP 
 .coming {
     height: 60%;
     margin-top: 10%;
 }
 
-/* CALENDAR.PHP */
+/* CALENDAR.PHP 
 div.calendar {
     padding: 1rem 10%;
 }
@@ -594,4 +594,4 @@ div.calendar td.plus {
 }
 
 
-
+ */

@@ -23,9 +23,11 @@
     </div>
   </div>
 </div>
-
 <div class="container student">
-<section id="studentInfoLink">
+    <section id="back" class="mt-3">
+        <a href="all_students.php"><i class="fas fa-angle-left me-1"></i>Back to All Students</a>
+    </section>
+    <section id="studentInfoLink">
             <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#studentInfoMenu" aria-expanded="false" aria-controls="studentInfoMenu">
                 <i class="fas fa-ellipsis-h"></i>
             </button>
@@ -61,9 +63,9 @@
                 <td>l06981@gmail.com</td>
             </tr>
         </table>
-        <button class="btn btn-outline-secondary col-4 offset-4">
+        <a href="student_edit.php#basicInfo" class="btn btn-outline-primary col-4 offset-4">
             Edit
-        </button>
+        </a>
     </section>
     <section class="mb-3" id="courseInfo">
         <h1>Course Infos</h1>
@@ -81,9 +83,9 @@
                 <td>04.2020</td>
             </tr>
         </table>
-        <button class="btn btn-outline-secondary col-4 offset-4">
+        <a href="student_edit.php#courseInfo" class="btn btn-outline-primary col-4 offset-4">
             Edit
-        </button>
+        </a>
     </section>
     <section>
         <h1>Lessons</h1>
@@ -101,10 +103,22 @@
         <div class="tab-content" id="payMonth">
             <div class="tab-pane fade show active" id="jun-tab-pane" role="tabpanel" aria-labelledby="jun-tab" tabindex="0">
                 <div class="row justify-content-evenly">
-                    <a href="#" class="col-2 lessons payed done">4.6</a>
-                    <a href="#" class="col-2 lessons payed">11.6</a>
-                    <a href="#" class="col-2 lessons payed">18.6</a>
-                    <a href="#" class="col-2 lessons">25.6</a>
+                    <a href="#" class="col-2 lessons done">
+                        <h5>4.6</h5>
+                        <p>10:30</p> 
+                    </a>
+                    <a href="#" class="col-2 lessons">
+                        <h5>11.6</h5> 
+                        <p>10:30</p> 
+                    </a>
+                    <a href="#" class="col-2 lessons">
+                        <h5>18.6</h5>
+                        <p>10:30</p> 
+                    </a>
+                    <a href="#" class="col-2 lessons">
+                        <h5>25.6</h5>
+                        <p>10:30</p> 
+                    </a>
                 </div>
             </div>
             <div class="tab-pane fade" id="jul-tab-pane" role="tabpanel" aria-labelledby="jul-tab" tabindex="0">.

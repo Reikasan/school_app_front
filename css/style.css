@@ -15,7 +15,7 @@ html {
 }
 
 a {
-    color: black;
+    color: #16003B !important;
     text-decoration: none;
 }
 
@@ -33,24 +33,6 @@ a {
 .alert.hide {
     display: none;
 }
-/* .main {
-    width: 80vw;
-    height: 90%;
-    overflow-y: auto;
-    position: fixed;
-    right: 0;
-} */
-
-/* .btn {
-    border: solid 1px #000;
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-size: 20px;
-    transition: border .5s;
-    text-align: center;
-    cursor: pointer;
-    padding: 1px;
-} */
 
 .btn:hover {
     border: 1px solid #000;
@@ -67,27 +49,49 @@ a {
     position: absolute;
     right: 10px;
 }
+.btn.btn-primary {
+    font-weight: 900;
+    background-color: #16003B;
+    color: #fff;
+    border-color: #16003B;
+    transition: all .3s;
+}
+.btn.btn-primary:hover {
+    background-color:#fff;
+    color: #F73D93;
+}
+.btn.btn-outline-primary {
+    font-weight: 900;
+    background-color: #fff !important;
+    color: #16003B !important;
+    border-color: #16003B;
+    transition: all .3s;
+}
+.btn.btn-outline-primary:hover {
+    color: #F73D93 !important;
+    border-color: #16003B !important;
+}
 
-/* input[type="submit"] {
-    background-color: rgb(239, 239, 239);
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-} */
+div.img-container {
+    position: relative;
+}
 .img-container img{
     border-radius: 50%;
+
+
 }
-/* navigation */
-/* nav {
-    display: flex;
-    padding: 0 10px;
-    height: 80px;
-    font-size: 15px;
+div.photo-upload {
+    border-radius: 5px;
     background-color: #fff;
-    border-bottom: solid 1px #413F42;
-} */
+    border: solid 1px #888888;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    color: #888888;
+    cursor: pointer;
+
+}
+
 nav.top-nav {
     border-bottom: solid 1px #413F42;
 }
@@ -140,9 +144,11 @@ button.accordion-button:hover {
 #studentInfoLink {
     position: absolute;
     right: 0;
+    top: 3px;
     width: 50%;
     background-color: #fff;
     opacity: .8;
+    z-index: 50;
 }
 #studentInfoLink button.btn-light {
     position: absolute;
@@ -150,6 +156,9 @@ button.accordion-button:hover {
     top: -15px;
     opacity: 1;
     z-index: 20;
+}
+#back {
+    font-size: 13px !important;
 }
 
 #studentMenu {
@@ -177,12 +186,16 @@ a.lessons {
     border-radius: 5px;
     height: 16.66666667vw;
     text-align: center;
-    padding-top: 5vw;
+    padding-top: 2.5vw;
     position: relative;
     color: #16003B;
     text-decoration: none;
 }
-a.payed::before {
+a.lessons h5 {
+    margin-bottom: 0;
+    font-weight: 900;
+}
+/* a.payed::before {
     content: "PAYED";
     height: 5vw;
     width: 15.5vw;
@@ -192,11 +205,11 @@ a.payed::before {
     bottom: 0;
     left: 0;
     border-radius: 0 0 4px;
-}
+}*/
 a.lessons.done {
     opacity: .7;
     background-color: #aaa;
-}
+} 
 div.student button.nav-link {
     font-size: 1.3rem;
 }
@@ -214,6 +227,9 @@ table tr#week {
     height: 20px !important;
 }
 /* ALL_STUDENT.PHP */
+.student-link a {
+    color: #16003B;
+}
 
 /* FOOTER NAV */
 footer {
@@ -226,11 +242,11 @@ footer {
     padding: 20px 0;
 }
 #footerNav a {
-    color: #F73D93;
+    color: #F73D93 !important;
     transition: color .3s;
 }
 #footerNav a:hover {
-    color: #ea0065;
+    color: #ea0065 !important;
 }
 #footerNav i {
     font-size: 25px;

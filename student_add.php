@@ -8,8 +8,13 @@
 <div class="container">
     <section class="text-center mb-3">
             <div class="img-container col-4 offset-4 pr-1 my-3">
-                <img class="img-fluid" src="img/brooke-cagle-rPgFF8vJ5vU-unsplash.jpg" alt="profile photo">
+                <img class="img-fluid" src="img/blank-profile-picture-973460_640.png" alt="placeholder photo">
+                <div class="col-3 photo-upload" data-bs-toggle="tooltip" data-bs-placement="top" title="Upload a photo">
+                    <i class="fas fa-plus"></i>
+                </div>
             </div>
+            
+            
     </section>
     <section class="mb-3">
         <form action="" method="post">
